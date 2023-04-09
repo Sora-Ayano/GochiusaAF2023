@@ -644,7 +644,7 @@ function goEndingCredit(){
 
 	removeInner(status.prototype.contents);
 	const credit = cElement('div','credit'),
-		  creditInner = createTextElement('div','credit__inner','Special Thanks：俳協<br>中文版制作：香风智乃官方认证老公');
+		  creditInner = createTextElement('div','credit__inner','Special Thanks：俳協');
 	setTimeout(function(){
 		window.scroll({top: 0});
 		credit.append(creditInner);
